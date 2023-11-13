@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+  }
+section,header{
+    overflow-x: hidden;
+}
+.nav-link{
+    border-bottom: 2px solid rgb(255, 253, 253);
+    
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+header img{
+    height: 80px;
+    color: aliceblue;
+}
+.btn {
+    border: 2px solid var(--white);
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+#my-cards{
+    margin-top: -50px;
+    
+}
+#my-cards h5{
+    margin-top: 10px;
+}
+#my-cards img:hover{
+    transition: 1s;
+    transform: scale(1.02);
+}
+#my-cards p{
+    text-align: justify;
+    margin: 5px;
+}
+#my-cards h5{
+    text-align: center;
+}
+#my-cards h5:hover{
+    transition: 2s;
+    background-color: skyblue;
+}
+
+#my-card2 h4{
+    text-align: center;
+}
+#my-card2 p{
+    text-align: justify;
+}
+#why-choose-us{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(backgrond2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+#height {
+    height: 50px;
+    
+}
+#rating{
+    margin-top: -10px;
+}
+
+#effile p{
+    
+    text-align: justify;
+}
+#partner{
+    text-align: justify;
+}
+#height1 {
+    height: 40px;
+}
+.xyz {
+    transition: 1s;
+}
+.xyz:hover{
+    transform: scale(1.2);
+}
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
